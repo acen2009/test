@@ -15,7 +15,7 @@
           "help": {
             "online": "http://esp8266.github.com/Arduino/versions/2.1.0/"
           }, 
-          "version": "Coding220", 
+          "version": "2.2.0", 
           "architecture": "x86", 
           "archiveFileName": "esp8266-2.1.0.zip", 
           "boards": [
