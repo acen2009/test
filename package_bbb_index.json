@@ -5,7 +5,7 @@
       "help": {
         "online": "http://esp8266.com/arduino"
       }, 
-      "websiteURL": "https://github.com/esp8266/Arduino", 
+      "websiteURL": "https://github.com/roboard/86duino", 
       "platforms": [
         {
           "category": "86Duino", 
@@ -15,7 +15,7 @@
           "help": {
             "online": "http://esp8266.github.com/Arduino/versions/2.1.0/"
           }, 
-          "version": "Coding 220", 
+          "version": "Coding220", 
           "architecture": "x86", 
           "archiveFileName": "esp8266-2.1.0.zip", 
           "boards": [
@@ -29,11 +29,16 @@
               "version": "4.9.2", 
               "name": "djgpp"
             },
-			{
-			  "packager": "86duino", 
+	    {
+	      "packager": "86duino", 
               "version": "1.0.1", 
               "name": "upx309w"
-			}
+	    },
+	    {
+	      "packager": "86duino", 
+              "version": "1.0", 
+              "name": "x86"
+	    }
           ], 
           "size": "5776332"
         }
@@ -55,6 +60,19 @@
         {
           "version": "1.0.1", 
           "name": "upx309w", 
+          "systems": [
+            {
+              "url": "http://arduino.esp8266.com/win32-xtensa-lx106-elf-gb404fb9.tar.gz", 
+              "checksum": "SHA-256:1561ec85cc58cab35cc48bfdb0d0087809f89c043112a2c36b54251a13bf781f", 
+              "host": "i686-mingw32", 
+              "archiveFileName": "win32-xtensa-lx106-elf-gb404fb9.tar.gz", 
+              "size": "153807368"
+            }
+          ]
+        }, 
+        {
+          "version": "1.0", 
+          "name": "x86", 
           "systems": [
             {
               "url": "http://arduino.esp8266.com/win32-xtensa-lx106-elf-gb404fb9.tar.gz", 
