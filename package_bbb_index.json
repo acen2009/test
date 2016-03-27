@@ -10,14 +10,14 @@
         {
           "category": "86Duino", 
           "name": "86duino", 
-          "url": "https://github.com/esp8266/Arduino/releases/download/2.1.0/esp8266-2.1.0.zip", 
-          "checksum": "SHA-256:000818d500ea90bcb516d667c688387f34003247bb5592e795bc549e91f9ace0", 
+          "url": "https://github.com/acen2009/test/files/191000/86duino-2.2.0.zip", 
+          "checksum": "SHA-256:f80f2a2720050563301d0294cd4afe9a2668183edc78015b217e6f924d5edac4", 
           "help": {
             "online": "http://esp8266.github.com/Arduino/versions/2.1.0/"
           }, 
           "version": "2.2.0", 
           "architecture": "x86", 
-          "archiveFileName": "esp8266-2.1.0.zip", 
+          "archiveFileName": "86duino-2.2.0.zip", 
           "boards": [
             {
               "name": "86Duino Zero/One/EduCake/PLC"
@@ -25,61 +25,61 @@
           ], 
           "toolsDependencies": [
             {
-              "packager": "86duino", 
-              "version": "4.9.2", 
-              "name": "djgpp"
+              "packager": "86duino",
+              "name": "djgpp",
+              "version": "4.9.2"
             },
 	    {
-	      "packager": "86duino", 
-              "version": "1.0.1", 
-              "name": "upx309w"
+	      "packager": "86duino",
+	      "name": "upx309w",
+              "version": "1.0.1"
 	    },
 	    {
-	      "packager": "86duino", 
-              "version": "1.0", 
-              "name": "x86"
+	      "packager": "86duino",
+	      "name": "x86",
+              "version": "1.0"
 	    }
           ], 
-          "size": "5776332"
+          "size": "13025186"
         }
       ], 
       "tools": [
         {
+          "name": "djgpp",
           "version": "4.9.2", 
-          "name": "djgpp", 
           "systems": [
             {
-              "url": "http://arduino.esp8266.com/win32-xtensa-lx106-elf-gb404fb9-2.tar.gz", 
-              "checksum": "SHA-256:10476b9c11a7a90f40883413ddfb409f505b20692e316c4e597c4c175b4be09c", 
+              "url": "https://github.com/acen2009/test/releases/download/86duino-v2.2.0/86duino-djgpp-compiler.zip", 
+              "checksum": "SHA-256:81abca0fb0b665909fdcc5e04c36f58c652bf0712dbb3a584e0bd8bb84c7d803", 
               "host": "i686-mingw32", 
-              "archiveFileName": "win32-xtensa-lx106-elf-gb404fb9-2.tar.gz", 
-              "size": "153527527"
+              "archiveFileName": "86duino-djgpp-compiler.zip"", 
+              "size": "71772522"
             }
           ]
         }, 
         {
+          "name": "upx309w",
           "version": "1.0.1", 
-          "name": "upx309w", 
           "systems": [
             {
-              "url": "http://arduino.esp8266.com/win32-xtensa-lx106-elf-gb404fb9.tar.gz", 
-              "checksum": "SHA-256:1561ec85cc58cab35cc48bfdb0d0087809f89c043112a2c36b54251a13bf781f", 
+              "url": "https://github.com/acen2009/test/files/191004/86duino-compressor.zip", 
+              "checksum": "SHA-256:f229a4d9a1b574c0177a8d4e31064873fb2b2eb24a978946c96a309ada29a345", 
               "host": "i686-mingw32", 
-              "archiveFileName": "win32-xtensa-lx106-elf-gb404fb9.tar.gz", 
-              "size": "153807368"
+              "archiveFileName": "86duino-compressor.zip", 
+              "size": "354086"
             }
           ]
         }, 
         {
-          "version": "1.0", 
-          "name": "x86", 
+          "name": "x86",
+          "version": "1.0",
           "systems": [
             {
-              "url": "http://arduino.esp8266.com/win32-xtensa-lx106-elf-gb404fb9.tar.gz", 
-              "checksum": "SHA-256:1561ec85cc58cab35cc48bfdb0d0087809f89c043112a2c36b54251a13bf781f", 
+              "url": "https://github.com/acen2009/test/files/191005/86duino-uploader.zip", 
+              "checksum": "SHA-256:92aeaa0c0e6c17c6ece8bc4e16e0e83e1513a92098c7b8b03a32cede6c7ef990", 
               "host": "i686-mingw32", 
-              "archiveFileName": "win32-xtensa-lx106-elf-gb404fb9.tar.gz", 
-              "size": "153807368"
+              "archiveFileName": "86duino-uploader.zip", 
+              "size": "35081"
             }
           ]
         }
