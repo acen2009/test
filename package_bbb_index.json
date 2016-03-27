@@ -20,7 +20,7 @@
           "archiveFileName": "esp8266-2.1.0.zip", 
           "boards": [
             {
-              "name": "Generic ESP8266 Module"
+              "name": "86Duino Zero/One/EduCake/PLC"
             }
           ], 
           "toolsDependencies": [
