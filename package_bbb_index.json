@@ -52,7 +52,7 @@
               "url": "https://github.com/acen2009/test/releases/download/86duino-v2.2.0/86duino-djgpp-compiler.zip", 
               "checksum": "SHA-256:81abca0fb0b665909fdcc5e04c36f58c652bf0712dbb3a584e0bd8bb84c7d803", 
               "host": "i686-mingw32", 
-              "archiveFileName": "86duino-djgpp-compiler.zip"", 
+              "archiveFileName": "86duino-djgpp-compiler.zip", 
               "size": "71772522"
             }
           ]
