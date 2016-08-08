@@ -10,6 +10,41 @@
         {
           "category": "86Duino", 
           "name": "86duino", 
+          "url": "https://github.com/acen2009/test/releases/download/V3.0.0/86duino-3.0.0.zip", 
+          "checksum": "SHA-256:70455540ef0e0beeda6f11fb7b68acee7703a3de7bd345dcf3a6bb3a85f584cb", 
+          "help": {
+            "online": "http://www.86duino.com"
+          }, 
+          "version": "3.0.0", 
+          "architecture": "x86", 
+          "archiveFileName": "86duino-3.0.0.zip", 
+          "boards": [
+            {
+              "name": "86Duino Zero/One/EduCake/PLC"
+            }
+          ], 
+          "toolsDependencies": [
+            {
+              "packager": "86duino",
+              "name": "djgpp",
+              "version": "4.9.2"
+            },
+			{
+			  "packager": "86duino",
+			  "name": "upx309w",
+			  "version": "1.0.1"
+			},
+			{
+			  "packager": "86duino",
+			  "name": "x86",
+			  "version": "1.1"
+			}
+		  ], 
+		  "size": "13513818"
+		},
+		{
+          "category": "86Duino", 
+          "name": "86duino", 
           "url": "https://github.com/acen2009/test/files/191991/86duino-2.2.0.zip", 
           "checksum": "SHA-256:f21c5ea95e1151b5b4e5d1946326d1246546c4a2e990a1570df3072ddf650c4a", 
           "help": {
@@ -29,19 +64,19 @@
               "name": "djgpp",
               "version": "4.9.2"
             },
-	    {
-	      "packager": "86duino",
-	      "name": "upx309w",
-              "version": "1.0.1"
-	    },
-	    {
-	      "packager": "86duino",
-	      "name": "x86",
-              "version": "1.0"
-	    }
-          ], 
-          "size": "13025203"
-        }
+			{
+			  "packager": "86duino",
+			  "name": "upx309w",
+				  "version": "1.0.1"
+			},
+			{
+			  "packager": "86duino",
+			  "name": "x86",
+				  "version": "1.0"
+			}
+			  ], 
+			  "size": "13025203"
+		}
       ], 
       "tools": [
         {
@@ -80,6 +115,19 @@
               "host": "i686-mingw32", 
               "archiveFileName": "86duino-uploader.zip", 
               "size": "35081"
+            }
+          ]
+        }, 
+        {
+          "name": "x86",
+          "version": "1.1",
+          "systems": [
+            {
+              "url": "https://github.com/acen2009/test/releases/download/V3.0.0/86duino-uploader.zip", 
+              "checksum": "SHA-256:ad791bf2a5a9a959965eed4af0d2a20909eba41bd26323054c5fe0192aaf0e0c", 
+              "host": "i686-mingw32", 
+              "archiveFileName": "86duino-uploader.zip", 
+              "size": "51418"
             }
           ]
         }
