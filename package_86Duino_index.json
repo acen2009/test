@@ -123,7 +123,7 @@
           "version": "1.1",
           "systems": [
             {
-              "url": "https://github.com/acen2009/test/releases/download/V3.0.0/86duino-uploader.zip", 
+              "url": "https://github.com/acen2009/test/releases/download/V3.0.0/86duino-1.1-uploader.zip", 
               "checksum": "SHA-256:ad791bf2a5a9a959965eed4af0d2a20909eba41bd26323054c5fe0192aaf0e0c", 
               "host": "i686-mingw32", 
               "archiveFileName": "86duino-uploader.zip", 
