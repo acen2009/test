@@ -59,22 +59,22 @@
               "host": "x86_64-apple-darwin",
               "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
               "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
-              "checksum": "SHA-256:3598acf21600f17a8e4a4e8e193dc422b894dc09384759b270b2ece5facb59c2",
-              "size": "52518522"
+              "checksum": "SHA-256:157a0c493f51a862532abad6beb39af34c0fcce052b06feaff7fa14d7dad69eb",
+              "size": "46165381"
             },
             {
               "host": "x86_64-pc-linux-gnu",
               "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
               "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
-              "checksum": "SHA-256:d23f6626148396d6ec42a5b4d928955a703e0757829195fa71a939e5b86eecf6",
-              "size": "51395093"
+              "checksum": "SHA-256:1609b8f62de2806b845981b19aeac454c3d6463762f2487a0fdd8f6d1b703cd3",
+              "size": "71454322"
             },
             {
               "host": "i686-pc-linux-gnu",
               "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
               "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
-              "checksum": "SHA-256:ba1994235f69c526c564f65343f22ddbc9822b2ea8c5ee07dd79d89f6ace2498",
-              "size": "51029223"
+              "checksum": "SHA-256:4581ec3c82ddfbddd1610cfe8fff34a3368c0f78ca9fb7658d9e03285b9f2d66",
+              "size": "69267439"
             }
           ]
         }, 
@@ -91,24 +91,24 @@
             },
             {
               "host": "x86_64-apple-darwin",
-              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+              "url": "https://github.com/acen2009/test/releases/download/V3.1.4/86duino-compressor-1.0.1-mac.tar.gz",
               "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
-              "checksum": "SHA-256:3598acf21600f17a8e4a4e8e193dc422b894dc09384759b270b2ece5facb59c2",
-              "size": "52518522"
+              "checksum": "SHA-256:50a519dc209625420fa44e1e6e1bf652a681df6329d54980977772cba3a44d03",
+              "size": "932968"
             },
             {
               "host": "x86_64-pc-linux-gnu",
-              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+              "url": "https://github.com/acen2009/test/releases/download/V3.1.4/86duino-compressor-1.0.1-linux64.tar.gz",
               "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
-              "checksum": "SHA-256:d23f6626148396d6ec42a5b4d928955a703e0757829195fa71a939e5b86eecf6",
-              "size": "51395093"
+              "checksum": "SHA-256:8de4cea3b3a5c48a7b5457dbe5779c0c280fb8b3578c230c2e57c54e9f0652c7",
+              "size": "379437"
             },
             {
               "host": "i686-pc-linux-gnu",
-              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+              "url": "https://github.com/acen2009/test/releases/download/V3.1.4/86duino-compressor-1.0.1-linux32.tar.gz",
               "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
-              "checksum": "SHA-256:ba1994235f69c526c564f65343f22ddbc9822b2ea8c5ee07dd79d89f6ace2498",
-              "size": "51029223"
+              "checksum": "SHA-256:06446b93e323c61792fefc5c3c903ea468de85341b0e8f08c64214ede03f6dda",
+              "size": "372351"
             }
           ]
         },
@@ -127,22 +127,22 @@
               "host": "x86_64-apple-darwin",
               "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
               "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
-              "checksum": "SHA-256:3598acf21600f17a8e4a4e8e193dc422b894dc09384759b270b2ece5facb59c2",
-              "size": "52518522"
+              "checksum": "SHA-256:722ca9adca11347b2000a300b9b82a9882e944e2c14d884de02b08842eb8e3c1",
+              "size": "6920"
             },
             {
               "host": "x86_64-pc-linux-gnu",
               "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
               "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
-              "checksum": "SHA-256:d23f6626148396d6ec42a5b4d928955a703e0757829195fa71a939e5b86eecf6",
-              "size": "51395093"
+              "checksum": "SHA-256:a97827517ee8e1b0573f0f75b40845ed98f7ecb395ed07271902d6ac4b42aab7",
+              "size": "7585"
             },
             {
               "host": "i686-pc-linux-gnu",
               "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
               "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
-              "checksum": "SHA-256:ba1994235f69c526c564f65343f22ddbc9822b2ea8c5ee07dd79d89f6ace2498",
-              "size": "51029223"
+              "checksum": "SHA-256:f3ba85b0b830b79ac7618795c9a0ee318c7d9232ef6f3f96c675eb96df8263b9",
+              "size": "7774"
             }
           ]
         }
