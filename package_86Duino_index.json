@@ -20,7 +20,7 @@
           "archiveFileName": "86duino-3.1.4.zip", 
           "boards": [
             {
-              "name": "86Duino Zero/One/EduCake"
+              "name": "86Duino Zero/One/EduCake/PLC"
             }
           ], 
           "toolsDependencies": [
