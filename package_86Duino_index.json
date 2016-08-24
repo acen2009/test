@@ -10,14 +10,14 @@
         {
           "category": "86Duino", 
           "name": "86Duino", 
-          "url": "https://github.com/acen2009/test/releases/download/V3.0.0/86duino-3.0.0.zip", 
+          "url": "https://github.com/acen2009/test/releases/download/V3.1.4/86duino-3.1.4.zip", 
           "checksum": "SHA-256:59705ba497c2d18dd8e25c554c63dc8d12f86c3b19bc8d295fa72c7182aff0dd", 
           "help": {
             "online": "http://www.86duino.com"
           }, 
-          "version": "3.0.0", 
+          "version": "3.1.4", 
           "architecture": "x86", 
-          "archiveFileName": "86duino-3.0.0.zip", 
+          "archiveFileName": "86duino-3.1.4.zip", 
           "boards": [
             {
               "name": "86Duino Zero/One/EduCake"
@@ -27,7 +27,7 @@
             {
               "packager": "86duino",
               "name": "djgpp",
-              "version": "4.9.2"
+              "version": "6.1.0"
             },
 			{
 			  "packager": "86duino",
@@ -41,47 +41,12 @@
 			}
 		  ], 
 		  "size": "13528190"
-		},
-		{
-          "category": "86Duino", 
-          "name": "86Duino", 
-          "url": "https://github.com/acen2009/test/files/191991/86duino-2.2.0.zip", 
-          "checksum": "SHA-256:f21c5ea95e1151b5b4e5d1946326d1246546c4a2e990a1570df3072ddf650c4a", 
-          "help": {
-            "online": "http://www.86duino.com"
-          }, 
-          "version": "2.2.0", 
-          "architecture": "x86", 
-          "archiveFileName": "86duino-2.2.0.zip", 
-          "boards": [
-            {
-              "name": "86Duino Zero/One/EduCake"
-            }
-          ], 
-          "toolsDependencies": [
-            {
-              "packager": "86duino",
-              "name": "djgpp",
-              "version": "4.9.2"
-            },
-			{
-			  "packager": "86duino",
-			  "name": "upx309w",
-				  "version": "1.0.1"
-			},
-			{
-			  "packager": "86duino",
-			  "name": "x86",
-				  "version": "1.0"
-			}
-			  ], 
-			  "size": "13025203"
 		}
       ], 
       "tools": [
         {
           "name": "djgpp",
-          "version": "4.9.2", 
+          "version": "6.1.0", 
           "systems": [
             {
               "url": "https://github.com/acen2009/test/releases/download/86duino-v2.2.0/86duino-djgpp-compiler.zip", 
@@ -89,6 +54,27 @@
               "host": "i686-mingw32", 
               "archiveFileName": "86duino-djgpp-4.9.2-win32.zip", 
               "size": "71772522"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+              "checksum": "SHA-256:3598acf21600f17a8e4a4e8e193dc422b894dc09384759b270b2ece5facb59c2",
+              "size": "52518522"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+              "checksum": "SHA-256:d23f6626148396d6ec42a5b4d928955a703e0757829195fa71a939e5b86eecf6",
+              "size": "51395093"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+              "checksum": "SHA-256:ba1994235f69c526c564f65343f22ddbc9822b2ea8c5ee07dd79d89f6ace2498",
+              "size": "51029223"
             }
           ]
         }, 
@@ -102,22 +88,30 @@
               "host": "i686-mingw32", 
               "archiveFileName": "86duino-compressor-1.0.1-win32.zip", 
               "size": "354086"
-            }
-          ]
-        }, 
-        {
-          "name": "x86",
-          "version": "1.0",
-          "systems": [
+            },
             {
-              "url": "https://github.com/acen2009/test/files/191005/86duino-uploader.zip", 
-              "checksum": "SHA-256:92aeaa0c0e6c17c6ece8bc4e16e0e83e1513a92098c7b8b03a32cede6c7ef990", 
-              "host": "i686-mingw32", 
-              "archiveFileName": "86duino-uploader-win32.zip", 
-              "size": "35081"
+              "host": "x86_64-apple-darwin",
+              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+              "checksum": "SHA-256:3598acf21600f17a8e4a4e8e193dc422b894dc09384759b270b2ece5facb59c2",
+              "size": "52518522"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+              "checksum": "SHA-256:d23f6626148396d6ec42a5b4d928955a703e0757829195fa71a939e5b86eecf6",
+              "size": "51395093"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+              "checksum": "SHA-256:ba1994235f69c526c564f65343f22ddbc9822b2ea8c5ee07dd79d89f6ace2498",
+              "size": "51029223"
             }
           ]
-        }, 
+        },
         {
           "name": "x86",
           "version": "1.1",
@@ -128,6 +122,27 @@
               "host": "i686-mingw32", 
               "archiveFileName": "86duino-uploader-1.1-win32.zip", 
               "size": "51418"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+              "checksum": "SHA-256:3598acf21600f17a8e4a4e8e193dc422b894dc09384759b270b2ece5facb59c2",
+              "size": "52518522"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+              "checksum": "SHA-256:d23f6626148396d6ec42a5b4d928955a703e0757829195fa71a939e5b86eecf6",
+              "size": "51395093"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+              "checksum": "SHA-256:ba1994235f69c526c564f65343f22ddbc9822b2ea8c5ee07dd79d89f6ace2498",
+              "size": "51029223"
             }
           ]
         }
